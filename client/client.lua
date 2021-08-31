@@ -1,7 +1,7 @@
 Citizen.CreateThread(function()
   while true do
-    if Vdist2(GetEntityCoords(PlayerPedId()), LockerPosition) <= 100.0 then
-      DrawMarker(27, LockerPosition, vector3(0.0, 0.0, 0.0), vector3(0.0, 0.0, 0.0), vector3(1.0, 1.0, 1.0), 255, 0, 255, 150, false, false, 2, false, false, false)
+    if Vdist2(GetEntityCoords(PlayerPedId()), LockerPosition) <= 1000.0 then
+      DrawMarker(0, LockerPosition, vector3(0.0, 0.0, 0.0), vector3(0.0, 0.0, 0.0), vector3(1.0, 1.0, 1.0), 255, 0, 255, 150, false, false, 2, false, false, false)
       if Vdist2(GetEntityCoords(PlayerPedId()), LockerPosition) <= 2.0 then
           HelpText((Strings['Press_E']):format(Strings['Storage']), storage)
           if IsControlJustReleased(0, 38) and Vdist2(GetEntityCoords(PlayerPedId()), LockerPosition) <= 2.0 then

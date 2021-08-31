@@ -5,4 +5,4 @@ Strings = {
     ['maxweight'] = "You can't carry more items",
     ['quantity_invalid'] = "Invalid Quantity",
 }
-LockerPosition = vector3(4494.32, -4454.88, 4.24)
+LockerPosition = vector3(4494.32, -4454.88, 3.94)
